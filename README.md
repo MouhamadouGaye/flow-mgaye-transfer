@@ -22,8 +22,8 @@ This is a modern frontend boilerplate using **Vite**, **React**, **TypeScript**,
 ## 📁 Folder Structure
 
 .
-├── public/ # Static assets
-├── src/
+── public/ # Static assets
+── src/
 │ ├── components/ # Reusable UI components
 │ ├── pages/ # Route-level components
 │ ├── hooks/ # Custom React hooks
