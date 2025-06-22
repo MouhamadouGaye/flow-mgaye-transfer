@@ -1,0 +1,104 @@
+
+.quick-actions-card {
+  background: white;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  padding: 24px 24px 0 24px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0 0 24px 0;
+}
+
+.card-content {
+  padding: 0 24px 24px 24px;
+}
+
+.actions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+@media (min-width: 768px) {
+  .actions-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.action-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.action-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border-radius: 8px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.action-item:hover {
+  background: #f9fafb;
+}
+
+.action-icon {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.action-icon.blue {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.action-icon.green {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.action-icon.purple {
+  background: #f3e8ff;
+  color: #9333ea;
+}
+
+.action-icon.orange {
+  background: #fed7aa;
+  color: #ea580c;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.action-text {
+  text-align: center;
+}
+
+.action-label {
+  font-weight: 500;
+  font-size: 14px;
+  color: #111827;
+  margin-bottom: 4px;
+}
+
+.action-description {
+  font-size: 12px;
+  color: #6b7280;
+}
